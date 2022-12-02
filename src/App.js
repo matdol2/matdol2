@@ -6,7 +6,8 @@ function App() {
     <Routes>
       <Route path="/" element={<P.Member />} />
       <Route path="/login" element={<P.Login />} />
-      <Route path="/:id" element={<P.MemberDetail />} />
+      <Route path="/:name" element={<P.MemberDetail />} />
+      <Route path="/:name/insert" element={<P.Insert />} />
     </Routes>
   );
 }
